@@ -4,7 +4,7 @@ from sklearn.externals import joblib
 import numpy as np
 from flask_cors import CORS
 
-import pandas as pd
+# import pandas as pd
 
 app = Flask(__name__)
 Swagger(app)
